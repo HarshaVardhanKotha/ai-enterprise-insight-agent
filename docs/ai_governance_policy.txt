@@ -1,0 +1,9 @@
+AI Governance Policy
+
+All enterprise AI systems must produce grounded, explainable, and auditable outputs. Systems that use language models should retrieve approved internal context before generating business recommendations.
+
+AI-generated responses should include supporting context when possible. If available context is insufficient, the system should clearly communicate uncertainty rather than inventing an answer.
+
+Sensitive customer, financial, and operational data must be handled according to internal data access policies. AI tools should log user requests, retrieved sources, model outputs, and final decisions for governance and review.
+
+Business-critical AI workflows should keep humans in the loop for high-impact decisions. Automated recommendations should be reviewed before triggering major operational or customer-facing changes.
